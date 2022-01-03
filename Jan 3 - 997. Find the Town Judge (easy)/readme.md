@@ -2,7 +2,7 @@
 * Time: O(n)
 * Space: O(2n) -> O(n)
 
-:::info
+::: info
 record be trusted person in trustList if the person is trusted by every other one, that means it's index value would be n - 1
 finally check if person is trust nobody, so we track this by using a hashmap call trustHash. If person n is trust someone then we put trustHash[person] = True
 :::
