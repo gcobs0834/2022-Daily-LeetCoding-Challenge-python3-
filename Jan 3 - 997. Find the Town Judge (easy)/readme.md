@@ -2,10 +2,10 @@
 * Time: O(n)
 * Space: O(2n) -> O(n)
 
-::: info
+```
 record be trusted person in trustList if the person is trusted by every other one, that means it's index value would be n - 1
 finally check if person is trust nobody, so we track this by using a hashmap call trustHash. If person n is trust someone then we put trustHash[person] = True
-:::
+
 
 # 1010. Pairs of Songs With Total Durations Divisible by 60
 * Medium
