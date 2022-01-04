@@ -10,7 +10,7 @@ so we can substract or do xor on mask and n -> (mask - n) or (mask ^ n)
 Time: O(1) 
 Space: O(1)
 
-Using log base(2) to get the ```mask of all 1s with the number of binary digits equal to the number of binary digits of n
+Using log base(2) to get the mask of all 1s with the number of binary digits equal to the number of binary digits of n
 
 so we can substract or do xor on mask and n -> (mask - n) or (mask ^ n)
 
