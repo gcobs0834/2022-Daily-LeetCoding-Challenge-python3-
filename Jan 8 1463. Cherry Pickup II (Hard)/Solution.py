@@ -1,3 +1,5 @@
+
+# Recursion
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
         self.rows = len(grid)
@@ -21,7 +23,8 @@ class Solution:
             return result
         
         return dp(0, 0, self.columns - 1)
-        
+
+# DP Matrix
 class Solution2:
     def cherryPickup(self, grid: List[List[int]]) -> int:
         self.rows = len(grid)
