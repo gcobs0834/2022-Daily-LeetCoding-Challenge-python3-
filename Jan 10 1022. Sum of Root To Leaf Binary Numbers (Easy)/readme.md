@@ -5,7 +5,7 @@
 * We store currentNum in string type so in the leaf node we could simply do int(currentNum, 2) to get the correct number
 
 
-# [1022. Sum of Root To Leaf Binary Numbers] (https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
+# [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
 
 You are given the root of a binary tree where each node has a value 0 or 1. Each root-to-leaf path represents a binary number starting with the most significant bit.
 
