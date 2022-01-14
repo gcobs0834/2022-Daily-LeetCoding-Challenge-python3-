@@ -1,7 +1,6 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        idx = 0
-        sign, output = 1, ""
+        idx, sign, output = 0, 1,  ""
         
         while idx < len(s) and s[idx] == " ": # Step 1 Read in and ignore any leading whitespace.
             idx += 1
@@ -14,10 +13,11 @@ class Solution:
             output += s[idx]
             idx += 1
                 
-        output = sign * int(output or 0)
+        output = sign * int(output or 0) # if output is "" return 0 since non-digit happen before digit or it's empty s already
         
         if output <= -2 ** 31: #Final check If the integer is out of the 32-bit signed integer range
             return -2 ** 31
         elif output >= 2**31 - 1:
             return 2 ** 31 -1
+			
         return output
