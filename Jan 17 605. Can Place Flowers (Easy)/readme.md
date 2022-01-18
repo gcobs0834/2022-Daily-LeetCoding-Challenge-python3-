@@ -13,7 +13,7 @@ Finally: We check if the target value is less our count, and return True or Fals
 * Time: O(N) : N equals lenghth of flowerbeds
 * Space: O(1) We only declare two int variable
 
-#[605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
+# [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
 You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
 
