@@ -23,7 +23,7 @@ So in step 2 we move first and second simultaneously in order to find our answer
 * Time: O(N) : N equals lenghth of linked-list
 * Space: O(1)
 
-# [142. Linked List Cycle II] (https://leetcode.com/problems/linked-list-cycle-ii/)
+# [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
 
