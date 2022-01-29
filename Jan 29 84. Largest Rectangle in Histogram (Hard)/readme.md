@@ -11,7 +11,7 @@ Afer iterate through whole heights, we expand all element from stack to final in
 * Space: O(n): maximum stack will grow if all heights are increasing
 
 ## STACK Code
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/main/Jan%2029%2084.%20Largest%20Rectangle%20in%20Histogram%20(Hard)/Solution.py)
 
 ## Two Pointer (TLE)
 
@@ -22,7 +22,7 @@ That *i* be leftPointer *j* be rightPointer => find min number from left to righ
 * Space: O(1)
 
 ## Two Pointer Code
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/main/Jan%2029%2084.%20Largest%20Rectangle%20in%20Histogram%20(Hard)/Solution.py)
 
 ## DFS (TLE)
 ### Binary Search Like
@@ -33,7 +33,7 @@ Same as previous solution, but we divided each time by finding current local Min
 * Space: O(log n): Recurrsive call stack
 
 ## DFS Code
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/main/Jan%2029%2084.%20Largest%20Rectangle%20in%20Histogram%20(Hard)/Solution.py)
 
 # [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
