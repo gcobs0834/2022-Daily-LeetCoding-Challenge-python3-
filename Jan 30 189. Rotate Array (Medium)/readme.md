@@ -47,13 +47,14 @@ We divided nums by k groups, and each time we move one group to desire index. On
 
 ## Code
 See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/a11cff601a12daac49ec7b912a93c33c5582022d/Jan%2030%20189.%20Rotate%20Array%20(Medium)/Solution.py#L26)
+
 # [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 Given an array, rotate the array to the right by k steps, where k is non-negative.
 
  
 
-# Example 1:
+## Example 1:
 
 Input: nums = [1,2,3,4,5,6,7], k = 3
 Output: [5,6,7,1,2,3,4]
@@ -61,7 +62,7 @@ Explanation:
 rotate 1 steps to the right: [7,1,2,3,4,5,6]
 rotate 2 steps to the right: [6,7,1,2,3,4,5]
 rotate 3 steps to the right: [5,6,7,1,2,3,4]
-# Example 2:
+## Example 2:
 
 Input: nums = [-1,-100,3,99], k = 2
 Output: [3,99,-1,-100]
