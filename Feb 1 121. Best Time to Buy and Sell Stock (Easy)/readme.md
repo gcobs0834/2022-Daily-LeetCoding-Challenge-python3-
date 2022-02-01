@@ -8,7 +8,7 @@ Since we have to find two different day, we simply use two for loop to find the 
 * Space: O(1)
 
 ## Code
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/ae6268f987ec8ca55aeb37c70434e594d39e2215/Feb%201%20121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(Easy)/Solution.py#L1)
 
 
 ## Linear Time (OPTIMAL)
@@ -18,7 +18,7 @@ We store and update previousLow each time we traverse through the array, and cal
 * Space: O(1)
 
 ## Code
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/ae6268f987ec8ca55aeb37c70434e594d39e2215/Feb%201%20121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(Easy)/Solution.py#L10)
 
 # [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
