@@ -30,7 +30,7 @@ By using hashMap to maintain sliding window
 
 ## Code
 
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/6290c4a3aa1e4232adb452b5bb019f8cbb18ef56/Feb%202%20438.%20Find%20All%20Anagrams%20in%20a%20String%20(Medium)/Solution.py#L2)
 
 ## 2️⃣Array Index Map
 Instead of using hashMap, we know that alphabet letter is 1~26, so we indexed it to array and initial every index = 0 to count the number of s and p
@@ -40,7 +40,7 @@ Instead of using hashMap, we know that alphabet letter is 1~26, so we indexed it
 
 
 ## Code
-See [Solution.py]()
+See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/6290c4a3aa1e4232adb452b5bb019f8cbb18ef56/Feb%202%20438.%20Find%20All%20Anagrams%20in%20a%20String%20(Medium)/Solution.py#L24)
 
 # [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
