@@ -38,7 +38,7 @@ return b
 See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/9205c5245bea029f61d5b7d77c601ed1a9b32b97/Feb%207%20389.%20Find%20the%20Difference%20(Easy)/Solution.py#L15)
 
 
-# [389. Find the Difference](https://leetcode.com/problems/find-the-difference/)\
+# [389. Find the Difference](https://leetcode.com/problems/find-the-difference/)
 
 You are given two strings s and t.
 
