@@ -42,7 +42,7 @@ This is optimal solution since we only iterate through nums once.
 ## hashMap Code
 See [Solution.py](https://github.com/gcobs0834/2022-Daily-LeetCoding-Challenge-python3-/blob/2bba4e751dbd9862b3e328672a7517e5f69e461f/Feb%2010%20560.%20Subarray%20Sum%20Equals%20K%20(Medium)/Solution.py#L28)
 
-[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+# [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
 
