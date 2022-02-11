@@ -92,12 +92,14 @@ class Solution:
             leftCharIdx = ord(s2[left]) - ord('a')
             rightCharIdx = ord(s2[right]) - ord('a')
             
+            # Pop left
             if s1Hash[leftCharIdx] == 0:
                 match -= 1
             s1Hash[leftCharIdx] += 1
             if s1Hash[leftCharIdx] == 0:
                 match += 1
-
+            
+            # Insert right
             if s1Hash[rightCharIdx] == 0:
                 match -= 1    
             s1Hash[rightCharIdx] -= 1
@@ -113,3 +115,4 @@ class Solution:
         for i in array:
             count += 1 if i == 0 else 0
         return count
+        
