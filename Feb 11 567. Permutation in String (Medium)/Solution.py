@@ -69,10 +69,7 @@ class Solution:
         return self.isMatch(s1Hash)
     
     def isMatch(self, array):
-        for i in array:
-            if i != 0:
-                return False
-        return True
+        return all(num == 0 for num in array)
     
 # Sliding Window Array Improved O(n1 + (n2 - n1))
 class Solution:
