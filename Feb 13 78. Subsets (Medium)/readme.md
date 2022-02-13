@@ -25,7 +25,7 @@ In this case we can build a
 
 ## Complexity Analysis
 * Time Complexity: **O(N * 2^N)** : Since we have to put N*2^N elemet = > O(N*2^N)
-* Space Complexity **O(N *2^N)**  : Since we have to put N*2^N elemet = > O(N*2^N)
+* Space Complexity **O(N * 2^N)**  : Since we have to put N*2^N elemet = > O(N*2^N)
 
 
 ## Code
