@@ -1,25 +1,26 @@
 
-# 🌟[Python 3] Greedy Stack Solution and Explanation
+ 🌟[Python 3] Greedy Stack Solution and Explanation
 
 ## 1️⃣ Greedy Approach:
-* Check decription's examples "1432219" and "10200" => By observation, we can tell that every time we scan from left. We can choose to pop the larger value
+* Check description's examples "1432219" and "10200" => By observation, we can tell that every time we scan from left. We can choose to pop the larger value
+* We using a **stack** to track these values
 ```
 # Example 1 k = 3
-1432219 = > Check 1 and 4, pop 4
-132219 = > Check 1 and 3, pop 3
-12219 => Check 1 and 2, pop 2
-1219
-```
-* But there are some edge cases we need to  check, what if first and second value **equal to each other**?
-```
-# Example 2 k =2
-11123 => Check 1 and 1, skip (idx 0 and 1)
-11123 => Check 1 and 1, skip (idx 1 and 2)
-11123 => Check 1 and 2, pop 2 (idx 2 and 3)
-1113 => Check 1 and 3, pop 3
+01432219
+'0'1432219 = > stack = [0]
+0'1'432219 = > stack = [0, 1]
+01'4'32219 = > stack = [0, 1, 4]
+014'3'2219 = > stack = [0, 1, 3]  4 > 3 pop out 4
+0143'2'219 = > stack = [0, 1, 2] 3 > 2 pop out 3
+01432'2'19 = > stack = [0, 1, 2, 2]
+014322'1'9 = > stack = [0, 1, 2, 1] 2 > 1 pop out 2
+0143221'9' = > stack = [0, 1, 2, 1, 9]
+
+pop out starting zeros
+return 1219
 ```
 
-* By these two example we can tell that only a value is greater than the other we can pop it out, else we move these two number along the nums.
+* By example we can tell that only a value in top of stack is greater than the other we can pop it out, else we move these two number along the nums.
 
 ## Using Stack
 * A clever to solve this question is using extra space **stack** to keep track all digits from begining. We don't pop inplace because it take O(N) to delete an element in list.
