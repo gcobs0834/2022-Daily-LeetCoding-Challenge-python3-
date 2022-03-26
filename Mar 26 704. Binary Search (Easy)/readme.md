@@ -1,4 +1,4 @@
-**[LeetCode Disscuss](https://leetcode.com/problems/binary-search/discuss/1885512/PythonGOC%2B%2B-Just-Binary-Search-Solution-and-Explanation)**
+**[LeetCode Disscuss Post](https://leetcode.com/problems/binary-search/discuss/1885512/PythonGOC%2B%2B-Just-Binary-Search-Solution-and-Explanation)**
 # [Python/GO/C++] 🌟 Just Binary Search Solution and Explanation 💕
 ## 1️⃣ Just Binary Search Approach:
 
